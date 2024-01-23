@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 // import { environmentsComponents } from "./src/concepts/environments";
 import { callbacksComponent } from "./src/concepts/callbacks";
 import { promiseComponent } from "./src/concepts/promises";
+import { promiseRaceComponent } from "./src/concepts/promise-race";
 
 document.querySelector("#app").innerHTML = `
   <div>
@@ -23,5 +24,6 @@ document.querySelector("#app").innerHTML = `
 const element = document.querySelector(".card");
 
 // environmentsComponents(element);
-callbacksComponent(element);
-promiseComponent(element);
+// callbacksComponent(element);
+// promiseComponent(element);
+promiseRaceComponent(element)
